@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Road Bike</title>
+	<style type="text/css">
+		body
+		{
+			background-color:grey;
+		}
+		.judul1
+		{
+			color:black;
+			padding:20px;
+			text-align:center;
+			
+		}
+		.menu1
+		{
+			overflow:hidden;
+			background-color:#333;
+		}
+		.menu1 a
+		{
+			float: left;
+			display: block;
+			color: grey;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+
+		}
+		.menu1 a:hover
+		{
+			background-color: #ddd;
+			color: black;
+		}
+		.para1
+		{
+			width:700px;
+			float:left;
+			margin-left:400px;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:20px;
+			font-align:justify;
+		}
+		.img1
+		{
+			margin-top:20px;
+			margin-left:250px;
+			position:absolute;
+		}
+		.subjudul1
+		{
+			margin-left:250px;
+			margin-bottom:20px;
+			margin-top:20px;
+		}
+		.para2
+		{
+			float:left;
+			position:absolute;
+			margin-left:200px;
+			margin-top:250px;
+			font-size:15px;
+		}
+		.para3
+		{
+			float:left;
+			position:absolute;
+			margin-left:800px;
+			margin-top:250px;
+			font-size:15px
+		}
+		.tentangku1
+		{
+			border-style:solid;
+			float:left;
+			width:20%;
+			position:absolute;
+			margin-left:1200px;
+			margin-top:20px;
+			background-color: white;
+			padding-left: 20px;
+		}
+		.card1
+		{
+			background-color:white;
+			padding: 20px;
+			margin-top: 20px;
+		}
+		.fakeimg
+		{
+			background-image:url('ig1.jpg');
+			background-repeat:no-repeat;
+			background-size:50px 50px;
+			width: 40%;
+			float:left;
+			padding: 10px;
+		}
+		.para4
+		{
+			background-color:black;
+			margin-left:200px;
+			margin-right:150px;
+			margin-top:100px;
+			border-style:double;
+			float:left;
+			width:60%;			
+		}
+		.para4 a
+		{
+			float: left;
+			display: block;
+			color: grey;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		.para4 a:hover
+		{
+			background-color: #ddd;
+			color: black
+		}
+		.yt
+		{
+			margin-left:400px;
+			margin-top:500px;
+		}
+	</style>
+</head>
+<body>
+	<div class="judul1">
+		<h1>Welcome</h1>
+	</div>
+	<div class="menu1">
+		<a href="http://http://www.dalimaputraperdana.com">Official Web</a>
+		<a href="story.html">Story</a>
+		<a href="about.html">About</a>
+		<!-- Link Ke Web Sugi -->
+		<a href="" style="float:right;">Sugi</a> 
+	</div>
+	<p id="hari"></p>
+	<script type="text/javascript">
+	var day;
+	switch (new Date().getDay()) 
+		{
+		case 0:
+			day = "Minggu";
+			break;
+		case 1:
+			day = "Senin";
+			break;
+		case 2:
+			day = "Selasa";
+			break;
+		case 3:
+			day = "Rabu";
+			break;
+		case 4:
+			day = "Kamis";
+			break;
+		case 5:
+			day = "Jumat";
+			break;
+		case  6:
+			day = "Sabtu";
+		}
+		document.getElementById("hari").innerHTML = "Hari" +" "+day;
+	</script>
+	<div class="tentangku1">
+		<div class="card1">
+			<h2>About Me!</h2>
+			<p>Instagram</p>
+			<a href="https://www.instagram.com/reinaldiegsp_/?hl=id"><div class="fakeimg" style="height:100px;">
+			</div></a>
+		</div>
+	</div>
+<div class="subjudul1"><p><h1>Story</h1></p></div>
+<div class="img1"><img src="logodalimabesar.png"/></div>
+<div class="para1"><p align="justify">
+	Dalima Putra Perdana adalah sebuah perusahaan swasta nasional yang didirikan di Bandung 
+	Tanggal 03 September 1992 dan bergerak di bidang penyedia jasa pemborongan (Contractor) 
+	dan penyedia barang (Supplier). PT. Dalima Putra Perdana bertujuan untuk dapat turut serta 
+	dan berperan aktif dalam mengisi pembangunan di bidang penyedia jasa pemborongan (Contractor)
+	sipil, mekanikal, elektrikal dan tata lingkungan serta bidang penyedia barang  (Supplier) 
+	mekanikal elektrikal, teknologi informasi, telekomunikasi dan perdagangan umum baik dalam 
+	skala lokal, regional dan nasional.</br></p></div>
+
+	
+
+	<div class="para4">
+		<a href="http://http://www.dalimaputraperdana.com">Official Web</a>
+		<a href="story.html">Story</a>
+		<a href="about.html">About</a>
+		<a href="index.html" style="float:right;">Home</a>
+	</div>
+</body>
+</div>
+</html>
